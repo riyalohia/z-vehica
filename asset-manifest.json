@@ -1,0 +1,14 @@
+{
+  "main.css": "DARK_STATIC_ASSETS_BASE_URL/static/css/main.5bd6d1e7.chunk.css",
+  "main.js": "DARK_STATIC_ASSETS_BASE_URL/static/js/main.92e76180.chunk.js",
+  "main.js.map": "DARK_STATIC_ASSETS_BASE_URL/static/js/main.92e76180.chunk.js.map",
+  "static/js/1.ee672406.chunk.js": "DARK_STATIC_ASSETS_BASE_URL/static/js/1.ee672406.chunk.js",
+  "static/js/1.ee672406.chunk.js.map": "DARK_STATIC_ASSETS_BASE_URL/static/js/1.ee672406.chunk.js.map",
+  "runtime~main.js": "DARK_STATIC_ASSETS_BASE_URL/static/js/runtime~main.931f9d57.js",
+  "runtime~main.js.map": "DARK_STATIC_ASSETS_BASE_URL/static/js/runtime~main.931f9d57.js.map",
+  "static/media/video.mp4": "DARK_STATIC_ASSETS_BASE_URL/static/media/video.7e416bef.mp4",
+  "static/css/main.5bd6d1e7.chunk.css.map": "DARK_STATIC_ASSETS_BASE_URL/static/css/main.5bd6d1e7.chunk.css.map",
+  "index.html": "DARK_STATIC_ASSETS_BASE_URL/index.html",
+  "precache-manifest.08b150ce39791c5c2c53673dee5ac5dc.js": "DARK_STATIC_ASSETS_BASE_URL/precache-manifest.08b150ce39791c5c2c53673dee5ac5dc.js",
+  "service-worker.js": "DARK_STATIC_ASSETS_BASE_URL/service-worker.js"
+}
