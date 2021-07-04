@@ -1,7 +1,6 @@
 import { connect } from "react-redux";
 import { getCars } from '../../redux/carsList';
 import { getCategories } from '../../redux/categories';
-import { updateFavouriteCars } from '../../redux/favouriteCars';
 
 import Home from './Home.component';
 

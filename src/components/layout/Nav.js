@@ -21,20 +21,20 @@ export const Nav = withRouter((props) => {
   };
 
   const headerClass = classNames({
-    ['Nav-header']: true,
-    ['Nav-header--dark']: active === 'favourite'
+    'Nav-header': true,
+    'Nav-header--dark': active === 'favourite'
   })
 
   const logoClass = classNames({
-    ['Nav-logo']: true,
-    ['Nav-logo--dark']: active === 'favourite'
+    'Nav-logo': true,
+    'Nav-logo--dark': active === 'favourite'
   });
 
   const getClass = (id) => {
     const itemClass = classNames({
-      ['Nav-listItem']: true,
-      ['Nav-listItem--dark']: active === 'favourite',
-      ['Nav-listItem--active']: active === id
+      'Nav-listItem': true,
+      'Nav-listItem--dark': active === 'favourite',
+      'Nav-listItem--active': active === id
     });
 
     return itemClass;

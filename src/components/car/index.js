@@ -16,6 +16,7 @@ export const Car = (props) => {
       <img
         className="Car-image"
         src={car.photo}
+        alt=""
         onError={onErrorHandler}
       />
       <div className="Car-info">
