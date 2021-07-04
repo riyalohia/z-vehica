@@ -12,9 +12,9 @@ export const Categories = (props) => {
 
   const getTabClass = React.useCallback((id) => {
     const TabClass = classNames({
-      ['Categories-tab']: true,
-      ['Categories-tab--active']: selected === id,
-      ['Categories-tab--hideArrow']: (id === 0 && selected === id) || props.loading
+      'Categories-tab': true,
+      'Categories-tab--active': selected === id,
+      'Categories-tab--hideArrow': (id === 0 && selected === id) || props.loading
     });
 
     return TabClass;

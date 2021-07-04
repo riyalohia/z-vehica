@@ -13,8 +13,8 @@ export const Subcategories = (props) => {
 
   const getTabClass = React.useCallback((id) => {
     const TabClass = classNames({
-      ['Subcategories-tab']: true,
-      ['Subcategories-tab--active']: selected === id
+      'Subcategories-tab': true,
+      'Subcategories-tab--active': selected === id
     });
 
     return TabClass;
