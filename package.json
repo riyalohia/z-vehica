@@ -1,5 +1,5 @@
 {
-  "homepage": "http://riyalohia.github.io/z-vehica",
+  "homepage": "https://riyalohia.github.io/z-vehica",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=DARK_STATIC_ASSETS_BASE_URL react-scripts build",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
