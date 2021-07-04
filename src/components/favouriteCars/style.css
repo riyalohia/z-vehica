@@ -1,0 +1,30 @@
+.FavouriteCars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--spacing-7);
+  margin-bottom: var(--spacing-7);
+}
+
+.FavouriteCars-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FavouriteCars-heading h2 {
+  font-size: 28px;
+  font-weight: var(--font-weight-bold);
+  color: var(--dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.FavouriteCars-cars {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--spacing-5);
+}

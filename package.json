@@ -1,0 +1,32 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "PUBLIC_URL=DARK_STATIC_ASSETS_BASE_URL react-scripts build",
+    "deploy": "yarn build && ./bin/dark build --canvas $DARK_USER-sassy-finder --password $DARK_PASSWORD --user $DARK_USER",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

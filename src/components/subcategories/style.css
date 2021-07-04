@@ -1,0 +1,30 @@
+.Subcategories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(237, 86, 59, 0.15);
+  border-radius: var(--spacing-l);
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+}
+
+.Subcategories-tab {
+  cursor: pointer;
+  padding: var(--spacing-xl) var(--spacing-5) var(--spacing-xl) var(--spacing-5);
+}
+
+.Subcategories-tab--active {
+  color: var(--orange);
+  border-bottom: var(--spacing-s) solid var(--orange);
+}
+
+@media (max-width: 767px) {
+  .Subcategories {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .Subcategories-tab {
+    padding: var(--spacing-xl) var(--spacing-l) var(--spacing-xl) var(--spacing-l);
+  }
+
+}
