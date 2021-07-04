@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://riyalohia.github.io/z-vehica;/precache-manifest.21fab687e11ee07358ff3470adb7c4f7.js"
+  "https://riyalohia.github.io/z-vehica;/precache-manifest.bb89ab267117703243d1bfadae303823.js"
 );
 
 workbox.clientsClaim();
