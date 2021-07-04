@@ -1,14 +1,14 @@
 {
-  "main.css": "/z-vehica/static/css/main.5bd6d1e7.chunk.css",
-  "main.js": "/z-vehica/static/js/main.a13dcaa2.chunk.js",
-  "main.js.map": "/z-vehica/static/js/main.a13dcaa2.chunk.js.map",
-  "static/js/1.ee672406.chunk.js": "/z-vehica/static/js/1.ee672406.chunk.js",
-  "static/js/1.ee672406.chunk.js.map": "/z-vehica/static/js/1.ee672406.chunk.js.map",
-  "runtime~main.js": "/z-vehica/static/js/runtime~main.e896ba30.js",
-  "runtime~main.js.map": "/z-vehica/static/js/runtime~main.e896ba30.js.map",
-  "static/media/video.mp4": "/z-vehica/static/media/video.7e416bef.mp4",
-  "static/css/main.5bd6d1e7.chunk.css.map": "/z-vehica/static/css/main.5bd6d1e7.chunk.css.map",
-  "index.html": "/z-vehica/index.html",
-  "precache-manifest.46f7ba6780b601d44ec0e1c25a27681b.js": "/z-vehica/precache-manifest.46f7ba6780b601d44ec0e1c25a27681b.js",
-  "service-worker.js": "/z-vehica/service-worker.js"
+  "main.css": "https://riyalohia.github.io/z-vehica;/static/css/main.629b8cc9.chunk.css",
+  "main.js": "https://riyalohia.github.io/z-vehica;/static/js/main.09c9de95.chunk.js",
+  "main.js.map": "https://riyalohia.github.io/z-vehica;/static/js/main.09c9de95.chunk.js.map",
+  "static/js/1.8b73a458.chunk.js": "https://riyalohia.github.io/z-vehica;/static/js/1.8b73a458.chunk.js",
+  "static/js/1.8b73a458.chunk.js.map": "https://riyalohia.github.io/z-vehica;/static/js/1.8b73a458.chunk.js.map",
+  "runtime~main.js": "https://riyalohia.github.io/z-vehica;/static/js/runtime~main.698e3e7a.js",
+  "runtime~main.js.map": "https://riyalohia.github.io/z-vehica;/static/js/runtime~main.698e3e7a.js.map",
+  "static/media/video.mp4": "https://riyalohia.github.io/z-vehica;/static/media/video.7e416bef.mp4",
+  "static/css/main.629b8cc9.chunk.css.map": "https://riyalohia.github.io/z-vehica;/static/css/main.629b8cc9.chunk.css.map",
+  "index.html": "https://riyalohia.github.io/z-vehica;/index.html",
+  "precache-manifest.21fab687e11ee07358ff3470adb7c4f7.js": "https://riyalohia.github.io/z-vehica;/precache-manifest.21fab687e11ee07358ff3470adb7c4f7.js",
+  "service-worker.js": "https://riyalohia.github.io/z-vehica;/service-worker.js"
 }

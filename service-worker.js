@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/z-vehica/precache-manifest.46f7ba6780b601d44ec0e1c25a27681b.js"
+  "https://riyalohia.github.io/z-vehica;/precache-manifest.21fab687e11ee07358ff3470adb7c4f7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/z-vehica/index.html", {
+workbox.routing.registerNavigationRoute("https://riyalohia.github.io/z-vehica;/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
