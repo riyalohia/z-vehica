@@ -1,0 +1,61 @@
+.CarsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--spacing-4);
+  margin-bottom: var(--spacing-5);
+}
+
+.CarsList-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.CarsList-heading h2 {
+  font-size: 28px;
+  font-weight: var(--font-weight-bold);
+  color: var(--dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--spacing-3);
+}
+
+.Tabs {
+  margin-top: var(--spacing-3);
+}
+
+.CarsList-cars {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--spacing-5);
+}
+
+.CardsList-LoaderWrapper {
+  min-height: 500px;
+  margin-top: var(--spacing-6);
+}
+
+.CardsList-Loader {
+  border: var(--spacing-xl) solid var(--secondary);
+  border-radius: 50%;
+  border-top: var(--spacing-xl) solid var(--orange);
+  width: var(--spacing-4);
+  height: var(--spacing-4);
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

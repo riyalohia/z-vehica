@@ -1,0 +1,51 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--dark);
+}
+
+.Home-heading {
+  color: var(--white);
+}
+
+.Home--loading>span {
+  width: var(--spacing-xl);
+  height: var(--spacing-xl);
+  background: var(--white);
+  border-radius: 50%;
+  position: relative;
+  margin: 0 var(--spacing-m);
+}
+
+.Dot-1 {
+  animation: anim 1s linear 0s infinite;
+}
+
+.Dot-2 {
+  animation: anim 1s linear 0.25s infinite;
+}
+
+.Dot-3 {
+  animation: anim 1s linear 0.50s infinite;
+}
+
+.Dot-4 {
+  animation: anim 1s linear 0.75s infinite;
+}
+
+@keyframes anim {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: var(--spacing-xl);
+  }
+
+  100% {
+    top: 0;
+  }
+}
