@@ -1,14 +1,14 @@
 {
-  "main.css": "https://riyalohia.github.io/z-vehica;/static/css/main.629b8cc9.chunk.css",
-  "main.js": "https://riyalohia.github.io/z-vehica;/static/js/main.c06c11f4.chunk.js",
-  "main.js.map": "https://riyalohia.github.io/z-vehica;/static/js/main.c06c11f4.chunk.js.map",
-  "static/js/1.8b73a458.chunk.js": "https://riyalohia.github.io/z-vehica;/static/js/1.8b73a458.chunk.js",
-  "static/js/1.8b73a458.chunk.js.map": "https://riyalohia.github.io/z-vehica;/static/js/1.8b73a458.chunk.js.map",
-  "runtime~main.js": "https://riyalohia.github.io/z-vehica;/static/js/runtime~main.698e3e7a.js",
-  "runtime~main.js.map": "https://riyalohia.github.io/z-vehica;/static/js/runtime~main.698e3e7a.js.map",
-  "static/media/video.mp4": "https://riyalohia.github.io/z-vehica;/static/media/video.7e416bef.mp4",
-  "static/css/main.629b8cc9.chunk.css.map": "https://riyalohia.github.io/z-vehica;/static/css/main.629b8cc9.chunk.css.map",
-  "index.html": "https://riyalohia.github.io/z-vehica;/index.html",
-  "precache-manifest.bb89ab267117703243d1bfadae303823.js": "https://riyalohia.github.io/z-vehica;/precache-manifest.bb89ab267117703243d1bfadae303823.js",
-  "service-worker.js": "https://riyalohia.github.io/z-vehica;/service-worker.js"
+  "main.css": "/z-vehica/static/css/main.4328e761.chunk.css",
+  "main.js": "/z-vehica/static/js/main.63d81c52.chunk.js",
+  "main.js.map": "/z-vehica/static/js/main.63d81c52.chunk.js.map",
+  "static/js/1.fea03456.chunk.js": "/z-vehica/static/js/1.fea03456.chunk.js",
+  "static/js/1.fea03456.chunk.js.map": "/z-vehica/static/js/1.fea03456.chunk.js.map",
+  "runtime~main.js": "/z-vehica/static/js/runtime~main.e896ba30.js",
+  "runtime~main.js.map": "/z-vehica/static/js/runtime~main.e896ba30.js.map",
+  "static/media/video.mp4": "/z-vehica/static/media/video.7e416bef.mp4",
+  "static/css/main.4328e761.chunk.css.map": "/z-vehica/static/css/main.4328e761.chunk.css.map",
+  "index.html": "/z-vehica/index.html",
+  "precache-manifest.df4cb0f8202186f1855c8b15b397e38f.js": "/z-vehica/precache-manifest.df4cb0f8202186f1855c8b15b397e38f.js",
+  "service-worker.js": "/z-vehica/service-worker.js"
 }
