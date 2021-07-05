@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c93f1dd7079b3787eb95",
+    "revision": "15ad529dddbe200849a9",
     "url": "/z-vehica/static/css/main.626d3f8b.chunk.css"
   },
   {
-    "revision": "c93f1dd7079b3787eb95",
-    "url": "/z-vehica/static/js/main.c93f1dd7.chunk.js"
+    "revision": "15ad529dddbe200849a9",
+    "url": "/z-vehica/static/js/main.15ad529d.chunk.js"
   },
   {
     "revision": "4e3cca57d2e984b6e407",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/z-vehica/static/media/video.7e416bef.mp4"
   },
   {
-    "revision": "5fb86cce2effdfee4d91396061b1c565",
+    "revision": "a47eb06c88136172fe6a5f8fef0d9ec2",
     "url": "/z-vehica/index.html"
   }
 ];
