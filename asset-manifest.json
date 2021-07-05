@@ -1,14 +1,14 @@
 {
-  "main.css": "/z-vehica/static/css/main.5bd6d1e7.chunk.css",
-  "main.js": "/z-vehica/static/js/main.7e44e036.chunk.js",
-  "main.js.map": "/z-vehica/static/js/main.7e44e036.chunk.js.map",
-  "static/js/1.6cf4d714.chunk.js": "/z-vehica/static/js/1.6cf4d714.chunk.js",
-  "static/js/1.6cf4d714.chunk.js.map": "/z-vehica/static/js/1.6cf4d714.chunk.js.map",
+  "main.css": "/z-vehica/static/css/main.626d3f8b.chunk.css",
+  "main.js": "/z-vehica/static/js/main.c93f1dd7.chunk.js",
+  "main.js.map": "/z-vehica/static/js/main.c93f1dd7.chunk.js.map",
+  "static/js/1.4e3cca57.chunk.js": "/z-vehica/static/js/1.4e3cca57.chunk.js",
+  "static/js/1.4e3cca57.chunk.js.map": "/z-vehica/static/js/1.4e3cca57.chunk.js.map",
   "runtime~main.js": "/z-vehica/static/js/runtime~main.e896ba30.js",
   "runtime~main.js.map": "/z-vehica/static/js/runtime~main.e896ba30.js.map",
   "static/media/video.mp4": "/z-vehica/static/media/video.7e416bef.mp4",
-  "static/css/main.5bd6d1e7.chunk.css.map": "/z-vehica/static/css/main.5bd6d1e7.chunk.css.map",
+  "static/css/main.626d3f8b.chunk.css.map": "/z-vehica/static/css/main.626d3f8b.chunk.css.map",
   "index.html": "/z-vehica/index.html",
-  "precache-manifest.ce910ef7d917f1de38411c1ef656a496.js": "/z-vehica/precache-manifest.ce910ef7d917f1de38411c1ef656a496.js",
+  "precache-manifest.6ae018f12497273ac579c071a7e019a9.js": "/z-vehica/precache-manifest.6ae018f12497273ac579c071a7e019a9.js",
   "service-worker.js": "/z-vehica/service-worker.js"
 }
