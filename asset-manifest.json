@@ -1,7 +1,7 @@
 {
   "main.css": "/z-vehica/static/css/main.626d3f8b.chunk.css",
-  "main.js": "/z-vehica/static/js/main.d8f479e2.chunk.js",
-  "main.js.map": "/z-vehica/static/js/main.d8f479e2.chunk.js.map",
+  "main.js": "/z-vehica/static/js/main.274a42b6.chunk.js",
+  "main.js.map": "/z-vehica/static/js/main.274a42b6.chunk.js.map",
   "static/js/1.4e3cca57.chunk.js": "/z-vehica/static/js/1.4e3cca57.chunk.js",
   "static/js/1.4e3cca57.chunk.js.map": "/z-vehica/static/js/1.4e3cca57.chunk.js.map",
   "runtime~main.js": "/z-vehica/static/js/runtime~main.e896ba30.js",
@@ -9,6 +9,6 @@
   "static/media/video.mp4": "/z-vehica/static/media/video.7e416bef.mp4",
   "static/css/main.626d3f8b.chunk.css.map": "/z-vehica/static/css/main.626d3f8b.chunk.css.map",
   "index.html": "/z-vehica/index.html",
-  "precache-manifest.517fe994795cf0091ebe4949a3e2ae8c.js": "/z-vehica/precache-manifest.517fe994795cf0091ebe4949a3e2ae8c.js",
+  "precache-manifest.5bbd6c0d5747e4d427303424d664765a.js": "/z-vehica/precache-manifest.5bbd6c0d5747e4d427303424d664765a.js",
   "service-worker.js": "/z-vehica/service-worker.js"
 }
