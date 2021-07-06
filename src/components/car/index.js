@@ -2,7 +2,7 @@ import React from "react";
 import './style.css';
 
 export const Car = (props) => {
-  const { car = {}, liked, onToggleFavourite, showLikeButton } = props;
+  const { car = {}, liked, onToggleFavourite, showLikeButton, onAddPrice, price } = props;
 
   const onErrorHandler = (e) => {
     e.target.onerror = null;
@@ -10,6 +10,13 @@ export const Car = (props) => {
     // Fallback Image
     e.target.src = 'https://imgd.aeplcdn.com/664x374/n/cw/ec/41523/sonet-exterior-right-front-three-quarter-109.jpeg?q=85';
   }
+
+  const onChangeHandler = (e) => {
+    const price = e.target.value;
+    onAddPrice(car.id, price);
+  }
+
+  console.log(price);
 
   return (
     <div className="Car">
@@ -21,6 +28,12 @@ export const Car = (props) => {
       />
       <div className="Car-info">
         <h4 className="Car-title">{car.name}</h4>
+        <input
+          name="price"
+          type="number"
+          value={price}
+          onChange={onChangeHandler}
+        />
         {showLikeButton && (
           <>
             <input

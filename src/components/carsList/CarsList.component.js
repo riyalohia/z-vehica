@@ -59,6 +59,13 @@ export const CarsList = (props) => {
   const [selectedCategory, setSelectedCategory] = React.useState(0);
   const [selectedSubcategory, setSelectedSubcategory] = React.useState(0);
   const [state, dispatch] = React.useReducer(reducer, initialState);
+  const [carsPrice, setCarsPrice] = React.useState({});
+
+  const onAddPrice = (id, price) => {
+    const updatedPriceList = { ...carsPrice, [id]: price };
+
+    setCarsPrice(updatedPriceList);
+  }
 
   const getSubcategories = (id) => {
     setSelectedCategory(id);
@@ -112,6 +119,10 @@ export const CarsList = (props) => {
 
     const categoryCars = selectedCategory === 0 ? cars : cars.filter(car => car.catId === selectedCategory);
     const subcategoryCars = selectedSubcategory === 0 ? categoryCars : categoryCars.filter(car => car.subCatId === selectedSubcategory);
+    subcategoryCars.sort((a, b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+
+    const favourites = subcategoryCars.filter(car => favouriteCars.includes(car.id));
+    const others = subcategoryCars.filter(car => !favouriteCars.includes(car.id));
 
     return (
       <>
@@ -120,12 +131,25 @@ export const CarsList = (props) => {
           onSelectSubcategory={setSelectedSubcategory}
         />
         <div className="CarsList-cars">
-          {subcategoryCars.map((car) => (
+          {favourites.map(car => (
+            <Car
+              key={car.id}
+              car={car}
+              showLikeButton={true}
+              liked={true}
+              price={carsPrice[car.id]}
+              onAddPrice={onAddPrice}
+              onToggleFavourite={(liked) => onToggleFavourite(liked, car)}
+            />
+          ))}
+          {others.map((car) => (
             <Car
               key={car.id}
               car={car}
               showLikeButton={true}
               liked={favouriteCars.includes(car.id)}
+              price={carsPrice[car.id]}
+              onAddPrice={onAddPrice}
               onToggleFavourite={(liked) => onToggleFavourite(liked, car)}
             />
           ))}
@@ -133,6 +157,7 @@ export const CarsList = (props) => {
       </>
     )
   }
+
   return (
     <section className="CarsList" id="featured">
       <div class="CarsList-heading">
